@@ -1,0 +1,275 @@
+{
+  "beginner": {
+    "mcqs": [
+      {
+        "question": "Which 3GPP release introduced the initial 5G NR specifications?",
+        "options": {"A": "Release 14", "B": "Release 15", "C": "Release 16", "D": "Release 17"},
+        "correct": "B",
+        "explanation": "Release 15 in 2018 introduced the initial 5G NR specifications."
+      },
+      {
+        "question": "Which organization allocates radio spectrum globally?",
+        "options": {"A": "ETSI", "B": "IEEE", "C": "IETF", "D": "ITU-R"},
+        "correct": "D",
+        "explanation": "ITU-R is responsible for global spectrum allocation."
+      },
+      {
+        "question": "FR1 in 5G spectrum refers to:",
+        "options": {"A": "24-100 GHz", "B": "600 MHz-6 GHz", "C": "Sub-1 GHz only", "D": "Unlicensed bands only"},
+        "correct": "B",
+        "explanation": "FR1 (Sub-6 GHz) covers 600 MHz to 6 GHz."
+      },
+      {
+        "question": "Which 5G technology uses mmWave frequencies?",
+        "options": {"A": "FR1", "B": "FR2", "C": "NB-IoT", "D": "LTE-M"},
+        "correct": "B",
+        "explanation": "FR2 refers to mmWave spectrum, 24 GHz to 100 GHz."
+      },
+      {
+        "question": "Which standard body develops WiFi specifications?",
+        "options": {"A": "IETF", "B": "ETSI", "C": "IEEE", "D": "3GPP"},
+        "correct": "C",
+        "explanation": "IEEE develops WiFi and other wired/wireless standards."
+      },
+      {
+        "question": "Dynamic spectrum sharing (DSS) allows:",
+        "options": {"A": "Sharing spectrum between 4G and 5G dynamically", "B": "Sharing spectrum between devices only", "C": "Dedicated spectrum only", "D": "Satellite allocation only"},
+        "correct": "A",
+        "explanation": "DSS allows 4G and 5G to share the same spectrum dynamically."
+      },
+      {
+        "question": "5G-Advanced features are part of which 3GPP release?",
+        "options": {"A": "Release 16", "B": "Release 17", "C": "Release 18", "D": "Release 19"},
+        "correct": "C",
+        "explanation": "Release 18 introduces 5G-Advanced features."
+      },
+      {
+        "question": "Which organization focuses on European telecom standards?",
+        "options": {"A": "IEEE", "B": "ETSI", "C": "IETF", "D": "ITU-R"},
+        "correct": "B",
+        "explanation": "ETSI develops European telecommunication standards."
+      },
+      {
+        "question": "Which 5G spectrum band is considered Sub-6 GHz?",
+        "options": {"A": "FR1", "B": "FR2", "C": "mmWave only", "D": "Unlicensed only"},
+        "correct": "A",
+        "explanation": "FR1 covers Sub-6 GHz frequencies, 600 MHz–6 GHz."
+      },
+      {
+        "question": "Which 3GPP release enhanced URLLC and IoT capabilities?",
+        "options": {"A": "Release 15", "B": "Release 16", "C": "Release 17", "D": "Release 18"},
+        "correct": "C",
+        "explanation": "Release 17 added enhanced URLLC and IoT capabilities."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the role of 3GPP in 5G standardization.",
+        "answer": "3GPP defines specifications for 5G NR, RAN, and Core network functionalities across multiple releases.",
+        "keyPoints": ["Defines 5G standards", "Multiple releases", "RAN and Core specifications"]
+      },
+      {
+        "question": "Describe the difference between FR1 and FR2 spectrum.",
+        "answer": "FR1 covers Sub-6 GHz, offering wider coverage and lower data rates; FR2 covers mmWave (24–100 GHz) for high-speed, low-latency scenarios.",
+        "keyPoints": ["FR1: Sub-6 GHz, wide coverage", "FR2: mmWave, high-speed", "Use cases differ"]
+      },
+      {
+        "question": "What is Dynamic Spectrum Sharing (DSS) in 5G?",
+        "answer": "DSS allows 4G and 5G to use the same spectrum dynamically, improving spectrum efficiency.",
+        "keyPoints": ["Shares spectrum", "4G/5G coexistence", "Efficient utilization"]
+      },
+      {
+        "question": "List other important standardization bodies in 5G.",
+        "answer": "ITU-R for spectrum allocation, ETSI for European telecom standards, IEEE for WiFi, IETF for Internet protocols.",
+        "keyPoints": ["ITU-R", "ETSI", "IEEE", "IETF"]
+      },
+      {
+        "question": "Explain the vision of 6G networks.",
+        "answer": "6G aims for Terabit/s speeds, microsecond latency, AI-native networks, holographic communications, and integrated terrestrial-satellite coverage.",
+        "keyPoints": ["Terabit speeds", "Microsecond latency", "AI-native networks", "Holographic communication"]
+      }
+    ]
+  },
+  "intermediate": {
+    "mcqs": [
+      {
+        "question": "Which 3GPP release introduced 5G Phase 2 enhancements?",
+        "options": {"A": "Release 15", "B": "Release 16", "C": "Release 17", "D": "Release 18"},
+        "correct": "B",
+        "explanation": "Release 16 (2020) included 5G Phase 2 enhancements."
+      },
+      {
+        "question": "What is the primary function of ITU-R in 5G?",
+        "options": {"A": "Define NR specifications", "B": "Radio spectrum allocation", "C": "WiFi standards", "D": "Core network design"},
+        "correct": "B",
+        "explanation": "ITU-R allocates radio spectrum internationally."
+      },
+      {
+        "question": "Which 5G band provides ultra-high-speed connections but limited coverage?",
+        "options": {"A": "FR1", "B": "FR2", "C": "NB-IoT", "D": "LTE-M"},
+        "correct": "B",
+        "explanation": "FR2 (mmWave) provides high speed but shorter range."
+      },
+      {
+        "question": "Which organization defines Internet protocols relevant to 5G?",
+        "options": {"A": "IETF", "B": "ETSI", "C": "IEEE", "D": "3GPP"},
+        "correct": "A",
+        "explanation": "IETF develops Internet protocols."
+      },
+      {
+        "question": "What is a key feature of 5G-Advanced?",
+        "options": {"A": "AI/ML integration in RAN", "B": "FR1 spectrum only", "C": "Legacy 4G enhancements", "D": "Unlicensed spectrum use"},
+        "correct": "A",
+        "explanation": "5G-Advanced (Release 18) integrates AI/ML for RAN optimization."
+      },
+      {
+        "question": "Which release focused on enhanced URLLC and IoT?",
+        "options": {"A": "Release 15", "B": "Release 16", "C": "Release 17", "D": "Release 18"},
+        "correct": "C",
+        "explanation": "Release 17 introduced enhanced URLLC and IoT features."
+      },
+      {
+        "question": "What does SA core deployment mean in 5G?",
+        "options": {"A": "Standalone core network deployment", "B": "Shared access", "C": "Spectrum allocation", "D": "Satellite-assisted network"},
+        "correct": "A",
+        "explanation": "SA means Standalone 5G core network deployment without relying on 4G."
+      },
+      {
+        "question": "Which 5G vertical uses digital twins and Industry 4.0?",
+        "options": {"A": "Healthcare", "B": "Manufacturing", "C": "Entertainment", "D": "Transportation"},
+        "correct": "B",
+        "explanation": "Manufacturing leverages 5G for Industry 4.0 and digital twins."
+      },
+      {
+        "question": "Which technology helps 5G networks save energy?",
+        "options": {"A": "DSS", "B": "5G-Advanced features", "C": "FR2 spectrum", "D": "NB-IoT"},
+        "correct": "B",
+        "explanation": "5G-Advanced includes network energy saving features."
+      },
+      {
+        "question": "Which 5G deployment allows enterprises to have their own private network?",
+        "options": {"A": "Public SA core", "B": "Private 5G", "C": "FR1 only", "D": "Open RAN only"},
+        "correct": "B",
+        "explanation": "Private 5G networks give enterprises dedicated connectivity."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the difference between 5G standalone and non-standalone cores.",
+        "answer": "Non-standalone (NSA) 5G relies on existing 4G LTE infrastructure, whereas standalone (SA) uses a full 5G core for enhanced features and low latency.",
+        "keyPoints": ["NSA: uses 4G core", "SA: full 5G core", "Impact on latency and features"]
+      },
+      {
+        "question": "Discuss the global deployment status of 5G.",
+        "answer": "5G is commercially deployed in 100+ countries, with increasing SA core deployment and growing private 5G networks.",
+        "keyPoints": ["100+ countries", "SA core increasing", "Private networks adoption"]
+      },
+      {
+        "question": "Describe how 5G-Advanced improves network performance.",
+        "answer": "Integrates AI/ML in RAN, XR optimizations, enhanced positioning, and energy efficiency.",
+        "keyPoints": ["AI/ML", "XR optimizations", "Positioning accuracy", "Energy savings"]
+      },
+      {
+        "question": "Explain the 6G vision for 2030+.",
+        "answer": "6G aims for Terabit speeds, microsecond latency, AI-native networks, holographic communications, and integration of terrestrial and satellite networks.",
+        "keyPoints": ["Terabit speed", "Microsecond latency", "AI-native", "Holographic communications"]
+      },
+      {
+        "question": "List key 5G verticals and their applications.",
+        "answer": "Manufacturing: Industry 4.0, digital twins; Healthcare: telemedicine, remote surgery; Transportation: autonomous vehicles; Entertainment: cloud gaming.",
+        "keyPoints": ["Manufacturing", "Healthcare", "Transportation", "Entertainment"]
+      }
+    ]
+  },
+  "advanced": {
+    "mcqs": [
+      {
+        "question": "Which release introduced 5G-Advanced features?",
+        "options": {"A": "Release 16", "B": "Release 17", "C": "Release 18", "D": "Release 19"},
+        "correct": "C",
+        "explanation": "Release 18 introduces 5G-Advanced features."
+      },
+      {
+        "question": "What is the primary focus of 6G networks?",
+        "options": {"A": "Legacy LTE improvements", "B": "AI-native, terabit speeds, holographic communications", "C": "Sub-6 GHz only", "D": "Satellite-only networking"},
+        "correct": "B",
+        "explanation": "6G focuses on AI-native networks, extremely high speed, and holographic communications."
+      },
+      {
+        "question": "Which organizations are involved in both 5G standards and spectrum allocation?",
+        "options": {"A": "3GPP and ITU-R", "B": "IEEE and ETSI", "C": "IETF and IEEE", "D": "ETSI and IETF"},
+        "correct": "A",
+        "explanation": "3GPP defines standards, ITU-R handles spectrum allocation."
+      },
+      {
+        "question": "Which 5G feature enhances XR (Extended Reality) performance?",
+        "options": {"A": "5G-Advanced", "B": "FR1", "C": "FR2 only", "D": "NB-IoT"},
+        "correct": "A",
+        "explanation": "5G-Advanced includes XR optimizations."
+      },
+      {
+        "question": "Which vertical leverages cloud gaming in 5G?",
+        "options": {"A": "Healthcare", "B": "Transportation", "C": "Entertainment", "D": "Manufacturing"},
+        "correct": "C",
+        "explanation": "Entertainment industry uses 5G for cloud gaming and immersive media."
+      },
+      {
+        "question": "Which 5G technology allows private enterprise networks?",
+        "options": {"A": "Private 5G", "B": "FR2 mmWave only", "C": "DSS", "D": "Open RAN only"},
+        "correct": "A",
+        "explanation": "Private 5G networks allow enterprises dedicated control."
+      },
+      {
+        "question": "What is Open RAN adoption for in 5G?",
+        "options": {"A": "Flexible and vendor-neutral RAN deployment", "B": "Spectrum sharing", "C": "NB-IoT optimization", "D": "XR performance"},
+        "correct": "A",
+        "explanation": "Open RAN allows flexible, multi-vendor RAN deployment."
+      },
+      {
+        "question": "Which feature improves network energy efficiency in 5G?",
+        "options": {"A": "5G-Advanced features", "B": "NSA core", "C": "FR1 only", "D": "URLLC"},
+        "correct": "A",
+        "explanation": "5G-Advanced includes energy-saving features."
+      },
+      {
+        "question": "Which 6G feature aims to integrate terrestrial and satellite networks?",
+        "options": {"A": "Holographic communication", "B": "Integrated networks", "C": "XR optimizations", "D": "DSS"},
+        "correct": "B",
+        "explanation": "6G vision includes integrated terrestrial and satellite networks."
+      },
+      {
+        "question": "Which release enhanced URLLC and IoT features?",
+        "options": {"A": "Release 15", "B": "Release 16", "C": "Release 17", "D": "Release 18"},
+        "correct": "C",
+        "explanation": "Release 17 enhanced URLLC and IoT features."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Discuss 5G-Advanced enhancements in Release 18.",
+        "answer": "Release 18 integrates AI/ML in RAN, XR optimizations, enhanced positioning, and energy savings.",
+        "keyPoints": ["AI/ML", "XR optimizations", "Positioning accuracy", "Energy savings"]
+      },
+      {
+        "question": "Explain the key differences between 5G and 6G.",
+        "answer": "6G aims for terabit speeds, microsecond latency, AI-native networks, holographic communications, and integrated terrestrial-satellite coverage.",
+        "keyPoints": ["Terabit speeds", "Microsecond latency", "AI-native", "Holographic comms", "Integrated networks"]
+      },
+      {
+        "question": "Describe the role of Open RAN in 5G deployments.",
+        "answer": "Open RAN enables flexible, vendor-neutral RAN deployment, allowing multi-vendor networks and innovation.",
+        "keyPoints": ["Vendor-neutral", "Flexible deployment", "Supports innovation"]
+      },
+      {
+        "question": "Explain how private 5G networks benefit enterprises.",
+        "answer": "Private 5G networks provide dedicated connectivity, enhanced security, and optimized performance for enterprise applications.",
+        "keyPoints": ["Dedicated connectivity", "Enhanced security", "Optimized performance"]
+      },
+      {
+        "question": "List the global 5G verticals and associated applications.",
+        "answer": "Manufacturing: Industry 4.0, digital twins; Healthcare: telemedicine, remote surgery; Transportation: autonomous vehicles; Entertainment: cloud gaming.",
+        "keyPoints": ["Manufacturing", "Healthcare", "Transportation", "Entertainment"]
+      }
+    ]
+  }
+}

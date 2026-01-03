@@ -1,0 +1,24 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Flask/Django
+instance/
+.webassets-cache
+*.db
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env

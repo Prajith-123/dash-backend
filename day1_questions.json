@@ -1,0 +1,277 @@
+{
+  "beginner": {
+    "mcqs": [
+      {
+        "question": "What is the main focus of 4G technology?",
+        "options": {"A": "Enhanced Mobile Broadband", "B": "Ultra-Reliable Low-Latency Communications", "C": "Massive IoT Connectivity", "D": "Cloud-Native Network Functions"},
+        "correct": "A",
+        "explanation": "4G primarily focuses on enhanced mobile broadband for better internet speeds."
+      },
+      {
+        "question": "Which 5G service category is designed for mission-critical applications?",
+        "options": {"A": "eMBB", "B": "URLLC", "C": "mMTC", "D": "SDN"},
+        "correct": "B",
+        "explanation": "URLLC provides ultra-reliable low-latency communication for critical applications."
+      },
+      {
+        "question": "What does mMTC in 5G stand for?",
+        "options": {"A": "Mobile Machine Type Communications", "B": "Massive Machine Type Communications", "C": "Medium Mobility Traffic Control", "D": "Multi-Media Transmission Channel"},
+        "correct": "B",
+        "explanation": "mMTC enables connectivity for a massive number of IoT devices."
+      },
+      {
+        "question": "Which spectrum band in 5G is used for ultra-high speeds in dense areas?",
+        "options": {"A": "Low-band", "B": "Mid-band", "C": "High-band / mmWave", "D": "Sub-6 GHz"},
+        "correct": "C",
+        "explanation": "High-band or mmWave provides ultra-high speeds but covers shorter distances."
+      },
+      {
+        "question": "What is a key feature of 5G core network architecture?",
+        "options": {"A": "Circuit-switched core", "B": "Cloud-native with service-based architecture", "C": "Physical-only network functions", "D": "Single monolithic core"},
+        "correct": "B",
+        "explanation": "5G core is cloud-native and uses a service-based architecture for flexibility."
+      },
+      {
+        "question": "Which technology helps in directing signals to specific users in 5G?",
+        "options": {"A": "Network slicing", "B": "Beamforming", "C": "SDN", "D": "NFV"},
+        "correct": "B",
+        "explanation": "Beamforming focuses the signal towards a specific user for better efficiency."
+      },
+      {
+        "question": "What is the main purpose of network slicing in 5G?",
+        "options": {"A": "Divide frequency bands", "B": "Create customized virtual networks", "C": "Enable faster device manufacturing", "D": "Reduce latency in 4G"},
+        "correct": "B",
+        "explanation": "Network slicing allows operators to create multiple virtual networks for different applications."
+      },
+      {
+        "question": "Which 5G spectrum band balances capacity and coverage?",
+        "options": {"A": "Low-band", "B": "Mid-band", "C": "High-band", "D": "mmWave"},
+        "correct": "B",
+        "explanation": "Mid-band offers a balance between coverage and speed."
+      },
+      {
+        "question": "Which technologies are 5G enablers for flexible networking?",
+        "options": {"A": "SDN and NFV", "B": "GSM and LTE", "C": "4G antennas only", "D": "Fiber optics only"},
+        "correct": "A",
+        "explanation": "Software-defined networking (SDN) and network function virtualization (NFV) enable flexible and programmable 5G networks."
+      },
+      {
+        "question": "Which 5G service category is meant for high-speed data and immersive experiences?",
+        "options": {"A": "URLLC", "B": "mMTC", "C": "eMBB", "D": "NFV"},
+        "correct": "C",
+        "explanation": "Enhanced Mobile Broadband (eMBB) focuses on high-speed data and immersive applications."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the main difference between 4G and 5G.",
+        "answer": "4G focuses on enhanced mobile broadband, while 5G supports eMBB, URLLC, and mMTC for high speed, low latency, and massive IoT connectivity.",
+        "keyPoints": ["Enhanced Mobile Broadband", "URLLC", "mMTC"]
+      },
+      {
+        "question": "Describe the three 5G spectrum bands and their purposes.",
+        "answer": "Low-band (<1GHz) is for wide coverage, Mid-band (1-6GHz) balances coverage and capacity, High-band/mmWave (24GHz+) is for ultra-high speeds in dense areas.",
+        "keyPoints": ["Low-band coverage", "Mid-band balance", "High-band mmWave"]
+      },
+      {
+        "question": "What is network slicing in 5G and why is it important?",
+        "answer": "Network slicing allows creating multiple virtual networks on the same physical infrastructure, providing customized services for different applications.",
+        "keyPoints": ["Virtual networks", "Customized services"]
+      },
+      {
+        "question": "Explain the role of SDN and NFV in 5G networks.",
+        "answer": "SDN and NFV provide programmable, flexible, and efficient network management, enabling 5G’s service-based architecture.",
+        "keyPoints": ["SDN", "NFV", "Flexible networking"]
+      },
+      {
+        "question": "What are the key service categories of 5G and give an example use case for each.",
+        "answer": "eMBB for high-speed video streaming, URLLC for autonomous vehicle control, mMTC for smart city IoT devices.",
+        "keyPoints": ["eMBB: video", "URLLC: autonomous vehicles", "mMTC: IoT devices"]
+      }
+    ]
+  },
+
+  "intermediate": {
+    "mcqs": [
+      {
+        "question": "Which protocol is primarily used for signaling in 5G core networks?",
+        "options": {"A": "SIP", "B": "HTTP/2", "C": "NGAP", "D": "FTP"},
+        "correct": "C",
+        "explanation": "NGAP is used in the 5G core for signaling between gNB and AMF."
+      },
+      {
+        "question": "What does the term 'ORAN' refer to in 5G?",
+        "options": {"A": "Open Radio Access Network", "B": "Optimized Routing Access Node", "C": "Operational Radio Automation Network", "D": "Overlapping Radio Area Network"},
+        "correct": "A",
+        "explanation": "ORAN is Open Radio Access Network, promoting interoperability and vendor flexibility."
+      },
+      {
+        "question": "In 5G QoS, what does 5QI represent?",
+        "options": {"A": "5G Quality Index", "B": "5G QoS Indicator", "C": "5G Queue Identifier", "D": "5G Quick Identifier"},
+        "correct": "B",
+        "explanation": "5QI (5G QoS Indicator) defines traffic handling priorities and parameters."
+      },
+      {
+        "question": "Which element manages user sessions in 5G Core?",
+        "options": {"A": "AMF", "B": "SMF", "C": "UPF", "D": "gNB"},
+        "correct": "B",
+        "explanation": "SMF (Session Management Function) manages PDU sessions for users."
+      },
+      {
+        "question": "Which technology allows 5G to support low-latency edge applications?",
+        "options": {"A": "MEC", "B": "NFV", "C": "SDN", "D": "VoLTE"},
+        "correct": "A",
+        "explanation": "MEC (Multi-access Edge Computing) enables low-latency applications by processing data near the edge."
+      },
+      {
+        "question": "What is the main function of UPF in 5G?",
+        "options": {"A": "User Plane Function for routing data", "B": "Unified Protocol Function", "C": "User Provisioning Feature", "D": "Universal Path Finder"},
+        "correct": "A",
+        "explanation": "UPF handles user plane traffic and routes data in the 5G network."
+      },
+      {
+        "question": "Which 5G architecture principle allows network programmability?",
+        "options": {"A": "Monolithic core", "B": "Service-Based Architecture", "C": "Circuit switching", "D": "Standalone LTE"},
+        "correct": "B",
+        "explanation": "Service-Based Architecture in 5G core allows network functions to communicate flexibly and programmably."
+      },
+      {
+        "question": "Which function in 5G handles mobility management?",
+        "options": {"A": "AMF", "B": "SMF", "C": "UPF", "D": "PCF"},
+        "correct": "A",
+        "explanation": "AMF (Access and Mobility Management Function) manages registration, connection, and mobility for devices."
+      },
+      {
+        "question": "Which 5G component stores subscriber policy rules?",
+        "options": {"A": "PCF", "B": "UPF", "C": "SMF", "D": "AUSF"},
+        "correct": "A",
+        "explanation": "PCF (Policy Control Function) stores and enforces subscriber policies."
+      },
+      {
+        "question": "Which 5G core function authenticates users?",
+        "options": {"A": "AUSF", "B": "AMF", "C": "SMF", "D": "UPF"},
+        "correct": "A",
+        "explanation": "AUSF (Authentication Server Function) handles user authentication in 5G core."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the difference between SA and NSA modes in 5G.",
+        "answer": "Standalone (SA) 5G uses 5G core, while Non-Standalone (NSA) leverages 4G LTE core for signaling.",
+        "keyPoints": ["SA uses 5G core", "NSA relies on LTE core"]
+      },
+      {
+        "question": "Describe the role of MEC in reducing latency.",
+        "answer": "MEC places computing resources near the edge, allowing data to be processed closer to users, reducing latency.",
+        "keyPoints": ["Edge computing", "Reduced latency"]
+      },
+      {
+        "question": "Explain how network slicing is implemented in 5G core.",
+        "answer": "Network slicing uses virtualized network functions to create multiple logical networks over shared physical infrastructure.",
+        "keyPoints": ["Virtual networks", "Logical slices", "NFV/SDN"]
+      },
+      {
+        "question": "Describe the interaction between AMF, SMF, and UPF during a PDU session setup.",
+        "answer": "AMF handles registration, SMF manages session, UPF routes user data.",
+        "keyPoints": ["AMF registration", "SMF session", "UPF routing"]
+      },
+      {
+        "question": "What are the key QoS parameters defined by 5QI in 5G?",
+        "answer": "5QI defines priority, packet delay budget, and packet loss rate for specific traffic types.",
+        "keyPoints": ["Priority", "Delay budget", "Packet loss"]
+      }
+    ]
+  },
+
+  "advanced": {
+    "mcqs": [
+      {
+        "question": "Which 5G Core function is responsible for policy control and charging?",
+        "options": {"A": "PCF", "B": "SMF", "C": "UPF", "D": "AUSF"},
+        "correct": "A",
+        "explanation": "PCF enforces policies and integrates with charging rules."
+      },
+      {
+        "question": "Which interface connects gNB and AMF in 5G?",
+        "options": {"A": "NG-C", "B": "X2", "C": "S1", "D": "NG-U"},
+        "correct": "A",
+        "explanation": "NG-C is the control plane interface connecting gNB to AMF."
+      },
+      {
+        "question": "What is the function of NRF in 5G core?",
+        "options": {"A": "Network Repository Function for service discovery", "B": "Network Routing Function", "C": "Node Registration Function", "D": "Network Redundancy Function"},
+        "correct": "A",
+        "explanation": "NRF allows 5G core functions to discover and communicate with each other."
+      },
+      {
+        "question": "Which security function manages authentication vectors in 5G?",
+        "options": {"A": "AUSF", "B": "SEAF", "C": "AMF", "D": "PCF"},
+        "correct": "A",
+        "explanation": "AUSF generates authentication vectors for subscriber verification."
+      },
+      {
+        "question": "How does 5G implement ultra-reliable low-latency communication (URLLC)?",
+        "options": {"A": "Dedicated spectrum and edge computing", "B": "MIMO antennas only", "C": "SDN without slicing", "D": "Fiber optic core"},
+        "correct": "A",
+        "explanation": "URLLC relies on dedicated resources and edge computing to ensure low latency and reliability."
+      },
+      {
+        "question": "Which function in 5G core is responsible for charging and billing?",
+        "options": {"A": "CHF", "B": "PCF", "C": "SMF", "D": "UPF"},
+        "correct": "A",
+        "explanation": "CHF (Charging Function) handles billing for network usage."
+      },
+      {
+        "question": "Which 5G technology enables dynamic allocation of resources to slices?",
+        "options": {"A": "Network slicing with SDN/NFV", "B": "MIMO", "C": "Beamforming only", "D": "LTE fallback"},
+        "correct": "A",
+        "explanation": "SDN/NFV allows slices to receive dynamic resource allocation based on demand."
+      },
+      {
+        "question": "What is the role of NEF in 5G core?",
+        "options": {"A": "Network Exposure Function for exposing capabilities to applications", "B": "Network Enforcement Function", "C": "Network Element Function", "D": "Node Edge Function"},
+        "correct": "A",
+        "explanation": "NEF allows third-party applications to access certain network capabilities securely."
+      },
+      {
+        "question": "Explain the role of AMF and SMF in mobility and session management.",
+        "options": {"A": "AMF manages mobility, SMF manages sessions", "B": "Both manage mobility", "C": "Both manage sessions", "D": "Neither"},
+        "correct": "A",
+        "explanation": "AMF handles mobility, registration and connection; SMF handles session management and PDU setup."
+      },
+      {
+        "question": "How is QoS enforced in 5G slices?",
+        "options": {"A": "Via 5QI and PCF policies", "B": "Manual operator intervention", "C": "Fixed per device", "D": "Only via UPF"},
+        "correct": "A",
+        "explanation": "QoS is enforced using 5QI parameters and PCF-defined policies across slices."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the service-based architecture in 5G core.",
+        "answer": "5G core uses a service-based architecture where network functions interact via APIs instead of point-to-point interfaces.",
+        "keyPoints": ["API-based communication", "Flexible NF interaction", "Decoupled services"]
+      },
+      {
+        "question": "Describe how network slicing ensures isolation and QoS.",
+        "answer": "Slices are logically separate virtual networks with dedicated resources and policies, ensuring isolation and QoS guarantees.",
+        "keyPoints": ["Logical isolation", "Dedicated resources", "QoS policies"]
+      },
+      {
+        "question": "Explain the interaction between NRF, AMF, and SMF in 5G core.",
+        "answer": "NRF enables service discovery, AMF handles mobility, SMF manages session; they communicate dynamically based on SBA principles.",
+        "keyPoints": ["NRF service discovery", "AMF mobility", "SMF session management"]
+      },
+      {
+        "question": "What mechanisms ensure URLLC requirements are met in 5G?",
+        "answer": "Dedicated resources, edge computing (MEC), high-priority scheduling, and slicing mechanisms ensure low latency and reliability.",
+        "keyPoints": ["Dedicated resources", "MEC", "High-priority scheduling", "Slicing"]
+      },
+      {
+        "question": "Explain the security architecture of 5G core.",
+        "answer": "5G core uses AUSF for authentication, SEAF for security anchor functions, and encryption for signaling and user data.",
+        "keyPoints": ["AUSF", "SEAF", "Encryption"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "beginner": {
+    "mcqs": [
+      {
+        "question": "Which authentication method is used for 5G non-3GPP access?",
+        "options": {"A": "5G-AKA", "B": "EAP-AKA'", "C": "LTE-M", "D": "NB-IoT"},
+        "correct": "B",
+        "explanation": "EAP-AKA' is used for authentication in non-3GPP access networks."
+      },
+      {
+        "question": "What is SUPI in 5G?",
+        "options": {"A": "Subscriber Unique Identity", "B": "Subscriber Permanent Identity", "C": "Subscriber Protected Identity", "D": "Secure User ID"},
+        "correct": "B",
+        "explanation": "SUPI is the Subscriber Permanent Identifier used in 5G networks."
+      },
+      {
+        "question": "What does mMTC stand for in 5G IoT?",
+        "options": {"A": "Massive Machine Type Communication", "B": "Mobile Machine Transmission Control", "C": "Multiple Mobile Terminal Communication", "D": "Main Machine Traffic Control"},
+        "correct": "A",
+        "explanation": "mMTC stands for Massive Machine Type Communication, supporting many IoT devices."
+      },
+      {
+        "question": "Which IoT type requires ultra-low latency and high reliability?",
+        "options": {"A": "mMTC", "B": "URLLC", "C": "NB-IoT", "D": "LTE-M"},
+        "correct": "B",
+        "explanation": "URLLC (Ultra-Reliable Low Latency Communications) is for critical IoT applications."
+      },
+      {
+        "question": "Which 5G feature ensures isolation between different virtual networks?",
+        "options": {"A": "QoS", "B": "Network slicing", "C": "MEC", "D": "DU deployment"},
+        "correct": "B",
+        "explanation": "Network slicing provides isolated virtual networks with dedicated resources."
+      },
+      {
+        "question": "Which type of communication is D2D?",
+        "options": {"A": "Device-to-device", "B": "Data-to-device", "C": "Device-to-distributor", "D": "Direct-to-device"},
+        "correct": "A",
+        "explanation": "D2D stands for Device-to-Device communication."
+      },
+      {
+        "question": "What is a key security challenge in IoT-enabled 5G?",
+        "options": {"A": "High latency", "B": "Increased attack surface", "C": "Limited spectrum", "D": "DU placement"},
+        "correct": "B",
+        "explanation": "IoT devices increase the attack surface, creating potential security vulnerabilities."
+      },
+      {
+        "question": "Which 5G authentication method uses keys for subscriber identity protection?",
+        "options": {"A": "5G-AKA", "B": "EAP-AKA'", "C": "SUPI/SUCI", "D": "MEC"},
+        "correct": "C",
+        "explanation": "SUPI/SUCI ensures subscriber identity privacy using cryptographic keys."
+      },
+      {
+        "question": "MEC in 5G primarily helps with:",
+        "options": {"A": "Massive device authentication", "B": "Edge computing and low latency", "C": "Spectrum allocation", "D": "QoS enforcement"},
+        "correct": "B",
+        "explanation": "MEC brings computation closer to the edge to reduce latency and improve real-time processing."
+      },
+      {
+        "question": "Which IoT technology is designed for long battery life and low power?",
+        "options": {"A": "URLLC", "B": "NB-IoT", "C": "DU", "D": "Network slicing"},
+        "correct": "B",
+        "explanation": "NB-IoT (Narrowband IoT) is optimized for low power consumption and long battery life."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the 5G-AKA authentication mechanism.",
+        "answer": "5G-AKA is the primary authentication method in 5G, providing mutual authentication between the subscriber and network.",
+        "keyPoints": ["Mutual authentication", "Uses cryptographic keys", "Secure exchange of SUPI/SUCI"]
+      },
+      {
+        "question": "Describe massive IoT (mMTC) in 5G.",
+        "answer": "mMTC allows connection of a very large number of devices with low data rates and low power consumption.",
+        "keyPoints": ["Supports millions of devices", "Low power", "Long battery life"]
+      },
+      {
+        "question": "What is network slicing and how does it enhance security?",
+        "answer": "Network slicing divides the physical network into virtual slices, isolating resources and improving security.",
+        "keyPoints": ["Virtual networks", "Resource isolation", "Dedicated security policies"]
+      },
+      {
+        "question": "Explain the concept of URLLC for critical IoT.",
+        "answer": "URLLC provides ultra-reliable, low-latency communication for critical applications like autonomous vehicles and industrial automation.",
+        "keyPoints": ["Ultra-low latency", "High reliability", "Supports critical services"]
+      },
+      {
+        "question": "Discuss M2M communications architecture in 5G.",
+        "answer": "M2M uses device-to-device communication, MEC-enabled edge processing, and API exposure for services in various industries.",
+        "keyPoints": ["D2D communication", "Edge processing", "API-based service exposure"]
+      }
+    ]
+  },
+  "intermediate": {
+    "mcqs": [
+      {
+        "question": "Which security feature protects subscriber privacy in 5G?",
+        "options": {"A": "SUPI/SUCI", "B": "MEC", "C": "QoS", "D": "F1 interface"},
+        "correct": "A",
+        "explanation": "SUPI/SUCI conceals subscriber identities to protect privacy."
+      },
+      {
+        "question": "Which 5G IoT category targets industrial automation and smart grids?",
+        "options": {"A": "mMTC", "B": "URLLC", "C": "NB-IoT", "D": "LTE-M"},
+        "correct": "B",
+        "explanation": "URLLC supports ultra-reliable low-latency applications like industrial automation."
+      },
+      {
+        "question": "Which 5G network function enforces security policies?",
+        "options": {"A": "AMF", "B": "PCF", "C": "UDM", "D": "AUSF"},
+        "correct": "D",
+        "explanation": "AUSF enforces authentication and security policies in the network."
+      },
+      {
+        "question": "What is the main role of MEC in M2M communications?",
+        "options": {"A": "Manage DU resources", "B": "Enable edge processing", "C": "Authenticate devices", "D": "Control spectrum"},
+        "correct": "B",
+        "explanation": "MEC enables low-latency edge computing for M2M applications."
+      },
+      {
+        "question": "Which 5G IoT technology is optimized for wide area coverage with minimal power?",
+        "options": {"A": "NB-IoT", "B": "URLLC", "C": "DU", "D": "Xn interface"},
+        "correct": "A",
+        "explanation": "NB-IoT is designed for long-range, low-power IoT communications."
+      },
+      {
+        "question": "Which challenge is unique to 5G IoT security?",
+        "options": {"A": "High device density", "B": "Limited spectrum", "C": "Fixed DU deployment", "D": "Centralized core"},
+        "correct": "A",
+        "explanation": "Massive device density increases the attack surface and security risk."
+      },
+      {
+        "question": "Which method ensures secure subscriber authentication over 5G?",
+        "options": {"A": "5G-AKA", "B": "DU placement", "C": "Network slicing", "D": "MEC edge"},
+        "correct": "A",
+        "explanation": "5G-AKA provides secure mutual authentication for subscribers."
+      },
+      {
+        "question": "Which M2M application uses API-based service exposure?",
+        "options": {"A": "Smart manufacturing", "B": "NR scheduling", "C": "F1 interface", "D": "QoS mapping"},
+        "correct": "A",
+        "explanation": "Smart manufacturing often relies on APIs for M2M services."
+      },
+      {
+        "question": "Which IoT type supports battery life of 10+ years?",
+        "options": {"A": "mMTC", "B": "URLLC", "C": "F1-U", "D": "DU"},
+        "correct": "A",
+        "explanation": "mMTC devices are optimized for ultra-low power and long battery life."
+      },
+      {
+        "question": "What is the purpose of network slicing isolation in security?",
+        "options": {"A": "Reduce latency", "B": "Prevent attacks across slices", "C": "Increase throughput", "D": "Simplify routing"},
+        "correct": "B",
+        "explanation": "Isolation prevents security breaches in one slice from affecting others."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain 5G-AKA and EAP-AKA' authentication differences.",
+        "answer": "5G-AKA is for 3GPP access, EAP-AKA' is for non-3GPP access, both provide mutual authentication.",
+        "keyPoints": ["3GPP vs non-3GPP", "Mutual authentication", "Secure key exchange"]
+      },
+      {
+        "question": "Discuss mMTC vs URLLC for IoT applications.",
+        "answer": "mMTC supports massive devices with low data rates, URLLC supports critical low-latency applications.",
+        "keyPoints": ["Device density", "Latency", "Reliability"]
+      },
+      {
+        "question": "Explain how MEC improves M2M communications.",
+        "answer": "MEC processes data at the edge, reducing latency and supporting real-time M2M applications.",
+        "keyPoints": ["Edge computing", "Low latency", "Real-time processing"]
+      },
+      {
+        "question": "Describe key 5G security challenges in dense IoT networks.",
+        "answer": "Challenges include increased attack surfaces, privacy risks, and secure resource isolation across slices.",
+        "keyPoints": ["Attack surface", "Privacy", "Slice isolation"]
+      },
+      {
+        "question": "Explain how network slicing enhances both performance and security.",
+        "answer": "Network slicing isolates resources per service, improving performance and security by limiting attack propagation.",
+        "keyPoints": ["Resource isolation", "Performance enhancement", "Security improvement"]
+      }
+    ]
+  },
+  "advanced": {
+    "mcqs": [
+      {
+        "question": "Which mechanism ensures secure communication for mMTC devices?",
+        "options": {"A": "5G-AKA", "B": "SUPI/SUCI encryption", "C": "MEC edge routing", "D": "F1 interface"},
+        "correct": "B",
+        "explanation": "SUPI/SUCI ensures subscriber privacy and security for mMTC devices."
+      },
+      {
+        "question": "Which IoT type requires reliability of 99.999%?",
+        "options": {"A": "URLLC", "B": "mMTC", "C": "NB-IoT", "D": "LTE-M"},
+        "correct": "A",
+        "explanation": "URLLC provides ultra-reliable communication required for critical IoT."
+      },
+      {
+        "question": "Which advanced M2M feature uses edge AI processing?",
+        "options": {"A": "MEC-enabled analytics", "B": "QoS mapping", "C": "DU real-time processing", "D": "Network slicing"},
+        "correct": "A",
+        "explanation": "MEC enables AI processing at the edge for real-time M2M analytics."
+      },
+      {
+        "question": "Quantum computing threats in 5G impact:",
+        "options": {"A": "Edge latency", "B": "Encryption algorithms", "C": "DU placement", "D": "Spectrum allocation"},
+        "correct": "B",
+        "explanation": "Quantum computing could break current encryption algorithms, impacting security."
+      },
+      {
+        "question": "Which security architecture concept isolates network slices?",
+        "options": {"A": "Network slicing", "B": "DU split", "C": "URLLC", "D": "MEC"},
+        "correct": "A",
+        "explanation": "Network slicing isolates resources and ensures security across slices."
+      },
+      {
+        "question": "Which component authenticates devices in 5G?",
+        "options": {"A": "AUSF", "B": "UDM", "C": "PCF", "D": "AMF"},
+        "correct": "A",
+        "explanation": "AUSF authenticates subscribers and devices in 5G networks."
+      },
+      {
+        "question": "Which IoT application benefits from MEC edge analytics?",
+        "options": {"A": "Healthcare monitoring", "B": "Spectrum sharing", "C": "DU real-time processing", "D": "QoS allocation"},
+        "correct": "A",
+        "explanation": "Healthcare monitoring requires real-time processing, enabled by MEC analytics."
+      },
+      {
+        "question": "Which mechanism in 5G protects privacy in dense IoT environments?",
+        "options": {"A": "SUPI/SUCI", "B": "NB-IoT", "C": "URLLC", "D": "DU-CU split"},
+        "correct": "A",
+        "explanation": "SUPI/SUCI conceals subscriber identities to protect privacy."
+      },
+      {
+        "question": "Which IoT communication uses device-to-device protocols?",
+        "options": {"A": "M2M", "B": "URLLC", "C": "mMTC", "D": "LTE-M"},
+        "correct": "A",
+        "explanation": "M2M communications leverage direct D2D protocols."
+      },
+      {
+        "question": "Which 5G feature ensures low-latency industrial automation?",
+        "options": {"A": "URLLC", "B": "mMTC", "C": "MEC only", "D": "Network slicing only"},
+        "correct": "A",
+        "explanation": "URLLC ensures ultra-low latency required for industrial automation."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Discuss advanced security challenges in 5G IoT networks.",
+        "answer": "Security challenges include privacy in massive IoT, slice isolation, MEC edge security, and emerging quantum threats.",
+        "keyPoints": ["Privacy", "Slice isolation", "Edge security", "Quantum threats"]
+      },
+      {
+        "question": "Explain the role of AUSF and UDM in 5G security.",
+        "answer": "UDM manages subscriber data; AUSF authenticates users and devices, enforcing security policies.",
+        "keyPoints": ["UDM: Data management", "AUSF: Authentication", "Policy enforcement"]
+      },
+      {
+        "question": "Describe MEC-enabled edge AI for M2M communications.",
+        "answer": "MEC enables AI and analytics at the edge for low-latency, real-time M2M applications.",
+        "keyPoints": ["Edge AI", "Low latency", "Real-time analytics"]
+      },
+      {
+        "question": "Explain how network slicing contributes to security and performance.",
+        "answer": "Isolating virtual networks ensures both security and dedicated performance for different services.",
+        "keyPoints": ["Isolation", "Security", "Dedicated resources"]
+      },
+      {
+        "question": "Discuss URLLC requirements for critical IoT services.",
+        "answer": "URLLC requires ultra-low latency, high reliability, and guaranteed service for critical applications.",
+        "keyPoints": ["Low latency", "High reliability", "Guaranteed service"]
+      }
+    ]
+  }
+}

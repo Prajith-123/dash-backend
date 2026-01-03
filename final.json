@@ -1,0 +1,54 @@
+{
+  "theory": [
+    {
+      "question": "Explain how AI/ML improves 5G network optimization.",
+      "answer": "AI/ML algorithms enhance network performance by predicting traffic patterns, automating resource allocation, and enabling self-healing networks.",
+      "keyPoints": [
+        "AI/ML",
+        "Network optimization",
+        "Self-healing",
+        "Traffic prediction"
+      ]
+    },
+    {
+      "question": "Discuss the challenges and benefits of integrating satellite communication in 5G networks.",
+      "answer": "Satellite communication in 5G enhances global coverage but presents challenges like latency, bandwidth limitations, and integration complexity with terrestrial networks.",
+      "keyPoints": [
+        "Global coverage",
+        "Latency",
+        "Bandwidth limitations",
+        "Network integration"
+      ]
+    },
+    {
+      "question": "Describe the role of SDN (Software-Defined Networking) in 5G core architecture.",
+      "answer": "SDN in 5G allows dynamic network control, separation of control and data planes, enabling flexible network management and resource optimization.",
+      "keyPoints": [
+        "SDN",
+        "Network control",
+        "Control/data plane separation",
+        "Resource optimization"
+      ]
+    },
+    {
+      "question": "Explain how edge computing enables low-latency processing in 5G applications.",
+      "answer": "Edge computing processes data closer to the user at the network edge, reducing the need for long-distance data transmission and thus lowering latency.",
+      "keyPoints": [
+        "Edge computing",
+        "Low-latency",
+        "Real-time processing",
+        "Data localization"
+      ]
+    },
+    {
+      "question": "Discuss the impact of quantum computing on the future of 5G and beyond.",
+      "answer": "Quantum computing can potentially revolutionize 5G and future networks by providing immense processing power for cryptography, network optimization, and AI-based services.",
+      "keyPoints": [
+        "Quantum computing",
+        "Network optimization",
+        "Cryptography",
+        "AI services"
+      ]
+    }
+  ]
+}

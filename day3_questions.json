@@ -1,0 +1,275 @@
+{
+  "beginner": {
+    "mcqs": [
+      {
+        "question": "What does QoS stand for in 5G networks?",
+        "options": {"A": "Quality of Service", "B": "Queue of Signals", "C": "Quick Operating System", "D": "Quality of Signal"},
+        "correct": "A",
+        "explanation": "QoS stands for Quality of Service, defining performance levels for different services."
+      },
+      {
+        "question": "What is the main goal of network slicing?",
+        "options": {"A": "Create virtual networks for specific services", "B": "Increase signal strength", "C": "Replace physical routers", "D": "Optimize antennas only"},
+        "correct": "A",
+        "explanation": "Network slicing allows multiple virtual networks to run on a single physical infrastructure."
+      },
+      {
+        "question": "What is MEC in 5G?",
+        "options": {"A": "Mobile Edge Computing", "B": "Multi-Exchange Core", "C": "Managed Edge Cloud", "D": "Modular Energy Control"},
+        "correct": "A",
+        "explanation": "MEC (Multi-access Edge Computing) brings computation closer to the user for low latency."
+      },
+      {
+        "question": "Which QoS parameter defines guaranteed data rate?",
+        "options": {"A": "5QI", "B": "GBR", "C": "Packet Delay Budget", "D": "Error Rate"},
+        "correct": "B",
+        "explanation": "GBR (Guaranteed Bit Rate) ensures a minimum data rate for certain services."
+      },
+      {
+        "question": "Which service type typically uses Non-GBR flows?",
+        "options": {"A": "Voice calls", "B": "Best-effort traffic", "C": "Critical IoT", "D": "Video conferencing"},
+        "correct": "B",
+        "explanation": "Non-GBR flows are used for best-effort traffic without guaranteed throughput."
+      },
+      {
+        "question": "Which benefit is provided by MEC?",
+        "options": {"A": "Ultra-low latency", "B": "Centralized processing", "C": "Static network allocation", "D": "Reduced coverage"},
+        "correct": "A",
+        "explanation": "MEC reduces latency by processing data closer to the user."
+      },
+      {
+        "question": "Network slicing isolates resources for:",
+        "options": {"A": "All users globally", "B": "Different services and applications", "C": "Hardware only", "D": "Core routers only"},
+        "correct": "B",
+        "explanation": "Each network slice gets isolated resources to meet its specific SLA requirements."
+      },
+      {
+        "question": "Which 5QI value is related to mission-critical services?",
+        "options": {"A": "5QI=1", "B": "5QI=9", "C": "5QI=5", "D": "5QI=7"},
+        "correct": "A",
+        "explanation": "Lower 5QI values are typically reserved for high-priority mission-critical services."
+      },
+      {
+        "question": "MEC primarily helps reduce:",
+        "options": {"A": "Backhaul traffic", "B": "Signal strength", "C": "User devices", "D": "Network slices"},
+        "correct": "A",
+        "explanation": "By processing data at the edge, MEC reduces the amount of data sent to the core network."
+      },
+      {
+        "question": "Which is a key feature of network slicing?",
+        "options": {"A": "Dedicated virtual networks", "B": "Shared spectrum only", "C": "Randomized latency", "D": "Unified QoS"},
+        "correct": "A",
+        "explanation": "Network slicing allows multiple logical networks to coexist on the same infrastructure."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the concept of QoS in 5G.",
+        "answer": "QoS ensures that different types of services receive appropriate network performance levels, defined by parameters like 5QI, GBR, and packet delay budgets.",
+        "keyPoints": ["Differentiated service treatment", "5QI: QoS identifier", "GBR/Non-GBR flows"]
+      },
+      {
+        "question": "Describe Multi-access Edge Computing (MEC) benefits.",
+        "answer": "MEC brings computation and storage closer to users to reduce latency, enable local processing, and decrease backhaul traffic.",
+        "keyPoints": ["Low latency", "Local processing", "Edge caching", "AI/analytics at edge"]
+      },
+      {
+        "question": "What is network slicing and why is it important?",
+        "answer": "Network slicing allows creation of multiple isolated virtual networks over a single physical network to meet different service requirements.",
+        "keyPoints": ["Virtual networks", "Isolated resources", "Customized SLAs"]
+      },
+      {
+        "question": "List common QoS parameters used in 5G.",
+        "answer": "Key parameters include 5QI (QoS Identifier), GBR (Guaranteed Bit Rate), non-GBR flows, packet delay budget, and packet error rate.",
+        "keyPoints": ["5QI", "GBR & Non-GBR", "Delay & error rate"]
+      },
+      {
+        "question": "How do MEC and network slicing complement each other?",
+        "answer": "MEC provides low-latency edge processing while network slicing ensures dedicated resources for different service types, together enabling optimized 5G services.",
+        "keyPoints": ["Low latency", "Dedicated slices", "Optimized services"]
+      }
+    ]
+  },
+  "intermediate": {
+    "mcqs": [
+      {
+        "question": "Which component is responsible for enforcing QoS policies in 5G?",
+        "options": {"A": "UPF", "B": "PCF", "C": "AMF", "D": "SMF"},
+        "correct": "B",
+        "explanation": "PCF (Policy Control Function) enforces QoS policies for 5G services."
+      },
+      {
+        "question": "How does MEC reduce latency for real-time applications?",
+        "options": {"A": "By centralizing processing in the core", "B": "By processing data at the network edge", "C": "By increasing network slices", "D": "By reducing QoS levels"},
+        "correct": "B",
+        "explanation": "MEC places compute resources closer to the user, minimizing data travel time."
+      },
+      {
+        "question": "Which type of network slice is used for ultra-reliable low-latency communications?",
+        "options": {"A": "eMBB", "B": "URLLC", "C": "mMTC", "D": "Standard slice"},
+        "correct": "B",
+        "explanation": "URLLC slices are designed for ultra-reliable low-latency services."
+      },
+      {
+        "question": "Dynamic slice orchestration refers to:",
+        "options": {"A": "Manually configuring slices", "B": "Automatically adjusting slices based on demand", "C": "Allocating physical hardware only", "D": "Creating static slices"},
+        "correct": "B",
+        "explanation": "Dynamic orchestration adapts slice resources automatically to changing network conditions."
+      },
+      {
+        "question": "MEC can assist which type of applications the most?",
+        "options": {"A": "Batch processing", "B": "Real-time AR/VR", "C": "Offline analytics", "D": "Email"},
+        "correct": "B",
+        "explanation": "Applications requiring ultra-low latency, like AR/VR, benefit most from MEC."
+      },
+      {
+        "question": "5QI defines:",
+        "options": {"A": "Latency targets", "B": "QoS class for service types", "C": "Physical layer modulation", "D": "Edge processing"},
+        "correct": "B",
+        "explanation": "5QI maps services to specific QoS treatment."
+      },
+      {
+        "question": "Which aspect of MEC reduces backhaul traffic?",
+        "options": {"A": "Local data caching", "B": "User authentication", "C": "Network slicing", "D": "UPF optimization"},
+        "correct": "A",
+        "explanation": "Processing and caching data locally reduces the amount sent to the core network."
+      },
+      {
+        "question": "Which slice type is mainly used for massive IoT?",
+        "options": {"A": "eMBB", "B": "URLLC", "C": "mMTC", "D": "Enterprise slice"},
+        "correct": "C",
+        "explanation": "mMTC (massive Machine Type Communication) slices support massive IoT deployments."
+      },
+      {
+        "question": "GBR flows are meant for:",
+        "options": {"A": "Best-effort traffic", "B": "Guaranteed performance services", "C": "Offline services", "D": "Broadcast only"},
+        "correct": "B",
+        "explanation": "GBR flows ensure minimum bandwidth for critical services."
+      },
+      {
+        "question": "What does dynamic slice orchestration improve?",
+        "options": {"A": "Security only", "B": "Resource efficiency and service quality", "C": "Backhaul reduction only", "D": "Device power"},
+        "correct": "B",
+        "explanation": "It optimizes resource allocation and maintains SLAs for services."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the role of PCF in QoS enforcement.",
+        "answer": "PCF manages and enforces policies, ensuring that each service receives its intended QoS level, including priority, delay, and bandwidth.",
+        "keyPoints": ["Policy management", "QoS enforcement", "Service-level guarantees"]
+      },
+      {
+        "question": "Describe MEC deployment types and benefits.",
+        "answer": "MEC nodes can be deployed at base stations, aggregation points, or data centers to minimize latency and offload traffic from the core network.",
+        "keyPoints": ["Edge deployment", "Low latency", "Backhaul reduction", "Local analytics"]
+      },
+      {
+        "question": "Discuss network slicing types and use cases.",
+        "answer": "Slices include eMBB (high bandwidth), URLLC (low latency, high reliability), and mMTC (massive IoT), providing isolated resources for each service type.",
+        "keyPoints": ["eMBB, URLLC, mMTC", "Isolated resources", "Customized SLAs"]
+      },
+      {
+        "question": "How does MEC improve real-time application performance?",
+        "answer": "By processing data at the edge close to users, MEC reduces latency and improves response times for applications like AR/VR and gaming.",
+        "keyPoints": ["Edge processing", "Low latency", "Enhanced user experience"]
+      },
+      {
+        "question": "Explain dynamic slice orchestration.",
+        "answer": "Dynamic orchestration automatically adjusts slice resources based on demand, traffic patterns, or service priority, ensuring optimal performance.",
+        "keyPoints": ["Automatic adjustment", "Resource optimization", "SLA maintenance"]
+      }
+    ]
+  },
+  "advanced": {
+    "mcqs": [
+      {
+        "question": "Which QoS parameter is critical for URLLC services?",
+        "options": {"A": "Packet delay budget", "B": "5QI only", "C": "GBR not important", "D": "Slice isolation only"},
+        "correct": "A",
+        "explanation": "URLLC requires strict packet delay budgets to meet low-latency requirements."
+      },
+      {
+        "question": "How does MEC support AI processing at the edge?",
+        "options": {"A": "By sending data to the cloud", "B": "By processing and analyzing data locally", "C": "By reducing 5QI values", "D": "By network slicing only"},
+        "correct": "B",
+        "explanation": "MEC nodes can run AI algorithms near the user for faster insights and actions."
+      },
+      {
+        "question": "Which component handles dynamic orchestration of network slices?",
+        "options": {"A": "SMF", "B": "Network Slice Management Function (NSMF)", "C": "PCF", "D": "AMF"},
+        "correct": "B",
+        "explanation": "NSMF orchestrates slice creation, modification, and scaling dynamically."
+      },
+      {
+        "question": "Advanced QoS optimization involves:",
+        "options": {"A": "Static bandwidth allocation", "B": "Adaptive resource allocation based on traffic", "C": "Ignoring packet delay budgets", "D": "Single slice for all traffic"},
+        "correct": "B",
+        "explanation": "Dynamic resource allocation ensures optimal service levels under varying traffic conditions."
+      },
+      {
+        "question": "What is the role of network slicing in 5G monetization?",
+        "options": {"A": "Enabling customized service offerings to different customers", "B": "Increasing base station power", "C": "Reducing spectrum only", "D": "Replacing MEC"},
+        "correct": "A",
+        "explanation": "Network slicing allows operators to offer differentiated services with dedicated SLAs, creating new revenue streams."
+      },
+      {
+        "question": "Which MEC benefit is most important for industrial IoT?",
+        "options": {"A": "Edge AI analytics", "B": "Backhaul congestion", "C": "General coverage", "D": "Non-real-time processing"},
+        "correct": "A",
+        "explanation": "Industrial IoT relies on low-latency edge AI processing for monitoring and automation."
+      },
+      {
+        "question": "How can slices be dynamically scaled?",
+        "options": {"A": "Through NSMF orchestration", "B": "Manually reconfiguring routers", "C": "Only by changing 5QI", "D": "Static allocation"},
+        "correct": "A",
+        "explanation": "NSMF can dynamically scale slices based on traffic load and service demand."
+      },
+      {
+        "question": "Which feature ensures isolation between network slices?",
+        "options": {"A": "Dedicated virtual resources", "B": "Shared bandwidth", "C": "Dynamic 5QI mapping", "D": "Core centralization only"},
+        "correct": "A",
+        "explanation": "Isolation is achieved by allocating dedicated virtual resources per slice."
+      },
+      {
+        "question": "Advanced MEC deployments can enable:",
+        "options": {"A": "Real-time analytics, AI processing, AR/VR", "B": "Only voice optimization", "C": "Static QoS management", "D": "Core-only processing"},
+        "correct": "A",
+        "explanation": "Edge computing supports real-time and AI-intensive applications at the network edge."
+      },
+      {
+        "question": "What is a key challenge in network slicing?",
+        "options": {"A": "Ensuring SLA adherence while sharing infrastructure", "B": "Routing packets only", "C": "Configuring antennas manually", "D": "Static spectrum use"},
+        "correct": "A",
+        "explanation": "Maintaining performance isolation and SLA guarantees while sharing the same physical network is a major challenge."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain QoS optimization strategies in 5G.",
+        "answer": "Advanced QoS optimization involves dynamically adjusting resource allocation, prioritizing traffic, and monitoring performance metrics to meet service requirements.",
+        "keyPoints": ["Dynamic resource allocation", "Traffic prioritization", "Performance monitoring"]
+      },
+      {
+        "question": "Describe how MEC supports AI and real-time applications.",
+        "answer": "MEC enables local computation and AI processing at the network edge, reducing latency and allowing faster decision-making for applications like autonomous vehicles or AR/VR.",
+        "keyPoints": ["Edge AI", "Low latency", "Real-time processing"]
+      },
+      {
+        "question": "Discuss dynamic network slice orchestration.",
+        "answer": "Dynamic orchestration adjusts slice resources automatically based on demand, traffic conditions, or service priority to maintain SLA compliance.",
+        "keyPoints": ["Automatic adjustment", "Resource optimization", "SLA compliance"]
+      },
+      {
+        "question": "How does network slicing enable 5G monetization?",
+        "answer": "Operators can offer customized services with dedicated SLAs for different industries or customers, creating new business models and revenue streams.",
+        "keyPoints": ["Custom services", "Dedicated SLAs", "Revenue opportunities"]
+      },
+      {
+        "question": "Explain the role of MEC in industrial IoT.",
+        "answer": "MEC provides low-latency, edge-based computation for industrial IoT applications, enabling real-time monitoring, control, and AI analytics.",
+        "keyPoints": ["Low latency", "Edge computation", "Real-time IoT"]
+      }
+    ]
+  }
+}

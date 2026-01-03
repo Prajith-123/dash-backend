@@ -1,0 +1,275 @@
+{
+  "beginner": {
+    "mcqs": [
+      {
+        "question": "What does RU stand for in 5G RAN?",
+        "options": {"A": "Radio Unit", "B": "Remote Unit", "C": "Routing Unit", "D": "Random Unit"},
+        "correct": "A",
+        "explanation": "RU stands for Radio Unit, handling radio signal processing."
+      },
+      {
+        "question": "Which function manages user sessions in 5G Core?",
+        "options": {"A": "AMF", "B": "SMF", "C": "UPF", "D": "PCF"},
+        "correct": "B",
+        "explanation": "SMF (Session Management Function) manages user sessions."
+      },
+      {
+        "question": "What is the role of the CU in 5G RAN?",
+        "options": {"A": "Real-time layer 2 processing", "B": "Radio signal processing", "C": "Non-real-time layer 2 and layer 3 control", "D": "User authentication"},
+        "correct": "C",
+        "explanation": "CU controls non-real-time layer 2 and layer 3 functions."
+      },
+      {
+        "question": "What architecture does 5G Core use?",
+        "options": {"A": "Monolithic", "B": "Client-Server", "C": "Service-Based Architecture (SBA)", "D": "Peer-to-Peer"},
+        "correct": "C",
+        "explanation": "5G Core uses Service-Based Architecture (SBA)."
+      },
+      {
+        "question": "Which network function handles policy control in 5G?",
+        "options": {"A": "PCF", "B": "UDM", "C": "AMF", "D": "AUSF"},
+        "correct": "A",
+        "explanation": "PCF (Policy Control Function) manages policies in 5G Core."
+      },
+      {
+        "question": "What is the main purpose of network slicing?",
+        "options": {"A": "Increase signal power", "B": "Create dedicated virtual networks", "C": "Replace physical infrastructure", "D": "Manage antennas"},
+        "correct": "B",
+        "explanation": "Network slicing provides dedicated virtual networks for different services."
+      },
+      {
+        "question": "Which 5G Core function handles authentication?",
+        "options": {"A": "AUSF", "B": "AMF", "C": "UPF", "D": "SMF"},
+        "correct": "A",
+        "explanation": "AUSF is the Authentication Server Function in 5G Core."
+      },
+      {
+        "question": "Which component of 5G RAN manages real-time layer 2 processing?",
+        "options": {"A": "RU", "B": "DU", "C": "CU", "D": "UPF"},
+        "correct": "B",
+        "explanation": "DU (Distributed Unit) handles real-time layer 2 processing."
+      },
+      {
+        "question": "What does UPF stand for in 5G Core?",
+        "options": {"A": "User Plane Function", "B": "Unified Policy Function", "C": "Universal Processing Function", "D": "User Proxy Function"},
+        "correct": "A",
+        "explanation": "UPF is responsible for forwarding user data in the 5G Core."
+      },
+      {
+        "question": "What is a key benefit of cloud-native design in 5G Core?",
+        "options": {"A": "Fixed resources", "B": "Efficient resource utilization", "C": "Manual scaling", "D": "Limited flexibility"},
+        "correct": "B",
+        "explanation": "Cloud-native design enables efficient and flexible use of resources."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the main components of 5G RAN.",
+        "answer": "5G RAN consists of RU (Radio Unit), DU (Distributed Unit), and CU (Central Unit), each handling different layers of signal and data processing.",
+        "keyPoints": ["RU: Radio signal processing", "DU: Real-time L2", "CU: Non-real-time L2/L3"]
+      },
+      {
+        "question": "Describe the Service-Based Architecture in 5G Core.",
+        "answer": "5G Core uses a Service-Based Architecture where network functions interact as services, allowing scalability and flexibility.",
+        "keyPoints": ["SBA", "Flexible interaction", "Scalable network functions"]
+      },
+      {
+        "question": "What is network slicing and why is it important?",
+        "answer": "Network slicing creates multiple virtual networks on the same physical infrastructure to provide dedicated services for different applications.",
+        "keyPoints": ["Virtual networks", "Dedicated services", "Resource isolation"]
+      },
+      {
+        "question": "List key network functions in 5G Core and their purpose.",
+        "answer": "AMF manages mobility, SMF handles sessions, UPF forwards user data, PCF controls policies, UDM manages data, AUSF authenticates users.",
+        "keyPoints": ["AMF", "SMF", "UPF", "PCF", "UDM", "AUSF"]
+      },
+      {
+        "question": "Why is cloud-native design used in 5G Core?",
+        "answer": "Cloud-native design allows 5G Core to scale efficiently, deploy services faster, and use resources flexibly.",
+        "keyPoints": ["Scalability", "Flexibility", "Fast deployment"]
+      }
+    ]
+  },
+  "intermediate": {
+    "mcqs": [
+      {
+        "question": "Which interface connects DU and RU in 5G RAN?",
+        "options": {"A": "F1", "B": "E1", "C": "NG", "D": "Xn"},
+        "correct": "A",
+        "explanation": "The F1 interface connects DU and RU for data and control exchange."
+      },
+      {
+        "question": "Which 5G Core function stores subscriber data?",
+        "options": {"A": "UDM", "B": "PCF", "C": "SMF", "D": "AMF"},
+        "correct": "A",
+        "explanation": "UDM (Unified Data Management) stores and manages subscriber data."
+      },
+      {
+        "question": "Which 5G RAN unit handles lower layer processing for multiple cells?",
+        "options": {"A": "RU", "B": "DU", "C": "CU", "D": "UPF"},
+        "correct": "B",
+        "explanation": "DU manages real-time L2 processing for one or more cells."
+      },
+      {
+        "question": "Which SBA principle allows network functions to be discovered dynamically?",
+        "options": {"A": "Service registration", "B": "Fixed routing", "C": "Static addressing", "D": "Manual configuration"},
+        "correct": "A",
+        "explanation": "SBA allows network functions to register themselves and be discovered dynamically."
+      },
+      {
+        "question": "Which component enforces QoS policies in 5G?",
+        "options": {"A": "UPF", "B": "PCF", "C": "AMF", "D": "SMF"},
+        "correct": "B",
+        "explanation": "PCF enforces QoS and policy rules in 5G."
+      },
+      {
+        "question": "What type of DU deployment is used for low latency?",
+        "options": {"A": "Centralized DU", "B": "Distributed DU", "C": "Standalone DU", "D": "Macro DU"},
+        "correct": "B",
+        "explanation": "Distributed DU is deployed closer to RU for low-latency processing."
+      },
+      {
+        "question": "Which 5G Core function terminates user plane traffic?",
+        "options": {"A": "AMF", "B": "SMF", "C": "UPF", "D": "PCF"},
+        "correct": "C",
+        "explanation": "UPF handles the user plane traffic termination."
+      },
+      {
+        "question": "Which interface connects CU and 5G Core?",
+        "options": {"A": "F1", "B": "E1", "C": "NG", "D": "Xn"},
+        "correct": "C",
+        "explanation": "NG interface connects CU to the 5G Core network."
+      },
+      {
+        "question": "Which function authenticates users in 5G Core?",
+        "options": {"A": "AUSF", "B": "UDM", "C": "AMF", "D": "PCF"},
+        "correct": "A",
+        "explanation": "AUSF authenticates users before granting network access."
+      },
+      {
+        "question": "How does network slicing improve resource utilization?",
+        "options": {"A": "By merging slices", "B": "By isolating resources per slice", "C": "By reducing users", "D": "By physical separation only"},
+        "correct": "B",
+        "explanation": "Network slicing isolates resources for different services, optimizing utilization."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain the DU-RU-CU split and its benefits.",
+        "answer": "The RU handles radio, DU handles real-time L2, and CU handles non-real-time L2/L3. This split allows flexible deployment and lower latency.",
+        "keyPoints": ["RU: Radio", "DU: Real-time L2", "CU: Non-real-time L2/L3", "Flexibility", "Lower latency"]
+      },
+      {
+        "question": "Describe Service-Based Architecture discovery and communication.",
+        "answer": "Network functions register themselves and discover others dynamically, communicating via HTTP/2 and RESTful APIs.",
+        "keyPoints": ["Dynamic discovery", "HTTP/2", "REST APIs"]
+      },
+      {
+        "question": "Discuss the role of PCF in QoS enforcement.",
+        "answer": "PCF enforces policies and QoS rules for sessions, ensuring guaranteed service levels.",
+        "keyPoints": ["Policy enforcement", "QoS", "Guaranteed service"]
+      },
+      {
+        "question": "Explain the purpose of NG and F1 interfaces.",
+        "answer": "NG connects CU to 5G Core, F1 connects DU to RU for control and user data transfer.",
+        "keyPoints": ["NG interface", "F1 interface", "Control and user data"]
+      },
+      {
+        "question": "How does distributed DU deployment reduce latency?",
+        "answer": "By placing DU closer to RU, the round-trip time is reduced, enabling low-latency services.",
+        "keyPoints": ["DU placement", "Low latency", "Efficient processing"]
+      }
+    ]
+  },
+  "advanced": {
+    "mcqs": [
+      {
+        "question": "Which protocol is used for SBA communication in 5G Core?",
+        "options": {"A": "SCTP", "B": "HTTP/2", "C": "TCP", "D": "UDP"},
+        "correct": "B",
+        "explanation": "5G SBA uses HTTP/2 for communication between network functions."
+      },
+      {
+        "question": "Which 5G Core function is responsible for subscription profile management?",
+        "options": {"A": "UDM", "B": "PCF", "C": "SMF", "D": "AMF"},
+        "correct": "A",
+        "explanation": "UDM manages subscriber profiles and data."
+      },
+      {
+        "question": "What is the purpose of the E1 interface?",
+        "options": {"A": "Connect DU and RU", "B": "Connect CU and DU", "C": "Connect CU and Core", "D": "User Plane Traffic"},
+        "correct": "B",
+        "explanation": "E1 interface connects CU to DU for control plane communication."
+      },
+      {
+        "question": "Which 5G Core function enforces authentication and authorization policies?",
+        "options": {"A": "AUSF", "B": "PCF", "C": "UDM", "D": "SMF"},
+        "correct": "A",
+        "explanation": "AUSF handles authentication and authorization."
+      },
+      {
+        "question": "Which interface supports dual connectivity in 5G RAN?",
+        "options": {"A": "Xn", "B": "NG", "C": "F1", "D": "E1"},
+        "correct": "A",
+        "explanation": "Xn interface enables dual connectivity between gNodeBs."
+      },
+      {
+        "question": "Which 5G Core function handles dynamic session management with QoS?",
+        "options": {"A": "SMF", "B": "AMF", "C": "UPF", "D": "PCF"},
+        "correct": "A",
+        "explanation": "SMF dynamically manages sessions and QoS parameters."
+      },
+      {
+        "question": "What is the role of NEF in 5G Core?",
+        "options": {"A": "Network Exposure Function", "B": "Network Enforcement Function", "C": "Node Evaluation Function", "D": "Network Enhancement Framework"},
+        "correct": "A",
+        "explanation": "NEF exposes network services to external applications securely."
+      },
+      {
+        "question": "Which interface handles user plane traffic in 5G RAN?",
+        "options": {"A": "F1-U", "B": "NG-C", "C": "Xn-C", "D": "E1-U"},
+        "correct": "A",
+        "explanation": "F1-U interface handles user plane traffic between DU and RU."
+      },
+      {
+        "question": "Describe the role of AMF in mobility management.",
+        "options": {"A": "Handles user authentication", "B": "Manages session QoS", "C": "Controls user plane routing", "D": "Manages mobility and registration"},
+        "correct": "D",
+        "explanation": "AMF manages mobility and registration for devices."
+      },
+      {
+        "question": "Which mechanism allows 5G Core functions to scale dynamically?",
+        "options": {"A": "Static allocation", "B": "Cloud-native microservices", "C": "Dedicated hardware", "D": "Manual replication"},
+        "correct": "B",
+        "explanation": "Cloud-native microservices allow 5G Core functions to scale dynamically."
+      }
+    ],
+    "theory": [
+      {
+        "question": "Explain SBA communication mechanisms and protocols.",
+        "answer": "5G SBA uses HTTP/2 over TCP for network function communication, supporting service discovery and load balancing.",
+        "keyPoints": ["HTTP/2", "Service discovery", "Load balancing"]
+      },
+      {
+        "question": "Describe advanced roles of UDM and AUSF.",
+        "answer": "UDM manages subscription data, authentication vectors, and profile info. AUSF performs authentication and enforces policies.",
+        "keyPoints": ["UDM: Subscription management", "AUSF: Authentication and policies"]
+      },
+      {
+        "question": "Explain dual connectivity in 5G RAN and its benefits.",
+        "answer": "Dual connectivity allows a device to connect to two gNodeBs simultaneously, improving throughput and reliability.",
+        "keyPoints": ["Dual connectivity", "Throughput", "Reliability"]
+      },
+      {
+        "question": "Discuss NEF's role in exposing network services.",
+        "answer": "NEF securely exposes 5G network services to external applications, enabling third-party integration.",
+        "keyPoints": ["NEF", "Service exposure", "Security"]
+      },
+      {
+        "question": "Analyze how cloud-native microservices improve 5G Core scalability.",
+        "answer": "Microservices allow independent scaling of core functions, faster deployments, and efficient resource utilization.",
+        "keyPoints": ["Microservices", "Scalability", "Resource efficiency"]
+      }
+    ]
+  }
+}
